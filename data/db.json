@@ -1,0 +1,24 @@
+{
+    "blog": [
+        {
+            "title": "My New Website",
+            "body": "lorem ipsum", 
+            "author": "Jumah",
+            "id": 1
+        },
+        {
+            "title": "DevFest Kenya",
+            "body": "lorem ipsum", 
+            "author": "Ngesa", 
+            "id": 2
+            
+        },
+        {
+            "title": "GDG KISII",
+            "body": "lorem ipsum", 
+            "author": "Jumah", 
+            "id": 3
+        }
+    
+    ]
+}
