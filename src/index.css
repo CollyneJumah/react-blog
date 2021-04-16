@@ -50,7 +50,22 @@
   color: #17327e;
   margin-bottom: 8px;
 }
+.blogPreview a{
+  text-decoration: none;
+}
 
 .text-red{
   color: #ee0c0c;
+}
+.blogDetails h2{
+  color: #f1356d;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.blogDetails .author{
+  font-size: 12px;
+  color: #333;
+}
+.blogDetails div{
+  margin: 20px 0;
 }
