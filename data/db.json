@@ -1,12 +1,6 @@
 {
   "blogs": [
     {
-      "title": "My New Website",
-      "body": "lorem ipsum",
-      "author": "Jumah",
-      "id": 1
-    },
-    {
       "title": "DevFest Kenya",
       "body": "GDG DevFest  the exciting topics and a world-class conference experience.A Github token must be created in order for Semantic Release to be able to publish a new release to the Github repository.",
       "author": "Ngesa",
@@ -23,48 +17,6 @@
       "body": "Eveniet minus nihil",
       "author": "Jumah",
       "id": 4
-    },
-    {
-      "title": "Blog Two",
-      "body": "This is my second blog",
-      "author": "Jumah",
-      "id": 5
-    },
-    {
-      "title": "Blog Two",
-      "body": "This is my second blog",
-      "author": "Jumah",
-      "id": 6
-    },
-    {
-      "title": "Blog Two",
-      "body": "This is my second blog",
-      "author": "Jumah",
-      "id": 7
-    },
-    {
-      "title": "Blog Two",
-      "body": "This is my second blog",
-      "author": "Jumah",
-      "id": 8
-    },
-    {
-      "title": "Blog Two",
-      "body": "This is my second blog",
-      "author": "Jumah",
-      "id": 9
-    },
-    {
-      "title": "Blog Two",
-      "body": "This is my second blog",
-      "author": "Jumah",
-      "id": 10
-    },
-    {
-      "title": "Blog Two",
-      "body": "This is my second blog",
-      "author": "Jumah",
-      "id": 11
     }
   ]
 }
