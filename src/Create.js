@@ -1,7 +1,62 @@
+import React from "react";
+import { useState } from "react";
+
 const Create = () => {
+    const [title, setTitle]= useState('')
+    const [body, setBody]= useState('')
+    const [author, setAuthor] = useState('')
+    const [isPending, setIsPending] = useState(false)
+        
+    const handleSubmit = (e) => {
+    // prevent default action of the form
+        e.preventDefault()
+        // create the blog object
+        const blog = {title,body,author}
+        // making post request
+
+        setIsPending(true);
+        
+        fetch('http://localhost:8000/blogs', {
+            method:'POST',
+            headers:{"Content-Type": "application/json"},
+            body: JSON.stringify(blog)
+        }).then(() =>{ 
+            console.log('New blog added');
+            setIsPending(false)
+        } )
+    }
     return (
 
-        <h2>Create a new Blog post</h2>
+        <div className="create">
+            <h2>Create a new Blog post</h2>
+            <form onSubmit={handleSubmit}>
+                <label>Blog Title</label>
+                <input 
+                    type="text"
+                    required
+                    value={title}
+                    onChange={(e) =>setTitle(e.target.value)}
+                    />
+
+                <label>Blog Body</label>
+                <textarea 
+                    required
+                    value={body}
+                    onChange={ (e)=> setBody(e.target.value) }
+                    >
+                </textarea>
+                <label>Blog Author</label>
+                <select
+                    value={author}
+                    onChange={(e) => setAuthor(e.target.value)}
+                    >
+                    <option value="Collins">Collins</option>
+                    <option value="Jumah">Jumah</option>
+                </select>
+               {!isPending && <button>Add blog</button>}
+               {isPending && <button disabled>Adding blog...</button>}
+            </form>
+        </div>
     );
 }
 

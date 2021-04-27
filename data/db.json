@@ -1,25 +1,70 @@
 {
-    "blogs": [
-        {
-            "title": "My New Website",
-            "body": "lorem ipsum", 
-            "author": "Jumah",
-            "id": 1
-        },
-        {
-            "title": "DevFest Kenya",
-            "body": "GDG DevFest Kenya is a community organized conference with 2000 amazing engineers.carefully selected tech talks, the best industry experts presenting on the exciting topics and a world-class conference experience.
-                    Be a part of this unique community moment in 2020, and join the fully virtual DevFest movement happening over one epic weekend.Want to Speak at #DevFestKenya  #DevFestNairobi? Submit C4P here.The pilgrimage is a time honored tradition",
-            "author": "Ngesa", 
-            "id": 2
-            
-        },
-        {
-            "title": "GDG KISII",
-            "body": "lorem ipsum", 
-            "author": "Jumah", 
-            "id": 3
-        }
-    
-    ]
+  "blogs": [
+    {
+      "title": "My New Website",
+      "body": "lorem ipsum",
+      "author": "Jumah",
+      "id": 1
+    },
+    {
+      "title": "DevFest Kenya",
+      "body": "GDG DevFest  the exciting topics and a world-class conference experience.A Github token must be created in order for Semantic Release to be able to publish a new release to the Github repository.",
+      "author": "Ngesa",
+      "id": 2
+    },
+    {
+      "title": "GDG KISII",
+      "body": "The Google Developer Group (GDG) Kisii Chapter is for tech enthusiasts, makers, software artisans and creators who are interested in learning, sharing and getting to know more of Google developer tools & technologies.So if you would like to dive deeper into Google's developer technologies; everything from the Android, Firebase, Chrome, App Engine, HTML5, to product APIs like the YouTube API, Maps API and Chart Tools, then join our amazing community!",
+      "author": "Jumah",
+      "id": 3
+    },
+    {
+      "title": "Sunt et expedita del",
+      "body": "Eveniet minus nihil",
+      "author": "Jumah",
+      "id": 4
+    },
+    {
+      "title": "Blog Two",
+      "body": "This is my second blog",
+      "author": "Jumah",
+      "id": 5
+    },
+    {
+      "title": "Blog Two",
+      "body": "This is my second blog",
+      "author": "Jumah",
+      "id": 6
+    },
+    {
+      "title": "Blog Two",
+      "body": "This is my second blog",
+      "author": "Jumah",
+      "id": 7
+    },
+    {
+      "title": "Blog Two",
+      "body": "This is my second blog",
+      "author": "Jumah",
+      "id": 8
+    },
+    {
+      "title": "Blog Two",
+      "body": "This is my second blog",
+      "author": "Jumah",
+      "id": 9
+    },
+    {
+      "title": "Blog Two",
+      "body": "This is my second blog",
+      "author": "Jumah",
+      "id": 10
+    },
+    {
+      "title": "Blog Two",
+      "body": "This is my second blog",
+      "author": "Jumah",
+      "id": 11
+    }
+  ]
 }

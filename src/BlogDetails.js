@@ -14,7 +14,7 @@ const BlogDetails = () => {
             { blog && (
                 <article>
                     <h2>{ blog.title }</h2>
-                    <p className="author">Written By { blog.author }</p>
+                    <p className="author">Written By <strong><em>{ blog.author }</em></strong></p>
                     <div>{ blog.body }</div>
                 </article>
             )}
