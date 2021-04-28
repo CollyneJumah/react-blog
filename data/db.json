@@ -17,6 +17,12 @@
       "body": "Eveniet minus nihil",
       "author": "Jumah",
       "id": 4
+    },
+    {
+      "title": "Android Basics in Kotlin",
+      "body": "Welcome to Android Basics in Kotlin! In this course, you'll learn the basics of building Android apps with the Kotlin programming language. Along the way, you'll develop a collection of apps to start your journey as an Android developer",
+      "author": "Jumah",
+      "id": 5
     }
   ]
 }
