@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h1>Tech Blog</h1>
+            <h1>
+                <Link to="/">Tech Blog</Link>
+            </h1>
             <div className="links">
                 <Link to="/">Home</Link>
                 <Link to="/create" style={
@@ -14,6 +16,7 @@ const Navbar = () => {
                         borderRadius:'8px'
                     }
                     }>New Blog</Link>
+                <a target="_blank" href="https://mernstack.atlassian.net/l/c/LG6ALPZk">Guide</a>
             </div>
         </nav>
      );

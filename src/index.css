@@ -4,7 +4,9 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+
 }
+
 .navbar {
   padding: 20px;
   display: flex;
@@ -31,6 +33,7 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+  box-shadow: 10px 5px 5px #17327e;
 }
 
 /* Blog preview */
@@ -39,9 +42,10 @@
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
+  
 }
 .blogPreview:hover{
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 3px 5px #17327e;
   cursor: pointer;
 }
 

@@ -13,16 +13,16 @@
       "id": 3
     },
     {
-      "title": "Sunt et expedita del",
-      "body": "Eveniet minus nihil",
-      "author": "Jumah",
-      "id": 4
-    },
-    {
       "title": "Android Basics in Kotlin",
       "body": "Welcome to Android Basics in Kotlin! In this course, you'll learn the basics of building Android apps with the Kotlin programming language. Along the way, you'll develop a collection of apps to start your journey as an Android developer",
       "author": "Jumah",
       "id": 5
+    },
+    {
+      "title": "How to deploy a React application to Netlify",
+      "body": "We will start by creating a build of our application by running this command:\n\nWe will start by creating a build of our application by running this command:\n\nSo, now our build folder will get generated which will contain all the production-ready files.\n\nNow, there are two ways to deploy our application to Netlify.\nNetifly has made it so easy that we have to just drag and drop our build folder into their online app (Rightmost image above), and our application will get deployed to a live URL.",
+      "author": "",
+      "id": 6
     }
   ]
 }
