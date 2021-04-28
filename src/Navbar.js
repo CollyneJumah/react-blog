@@ -16,7 +16,9 @@ const Navbar = () => {
                         borderRadius:'8px'
                     }
                     }>New Blog</Link>
-                <a target="_blank" href="https://mernstack.atlassian.net/l/c/LG6ALPZk">Guide</a>
+                <a target="_blank" 
+                    rel="noreferrer" 
+                    href="https://mernstack.atlassian.net/l/c/LG6ALPZk">Guide</a>
             </div>
         </nav>
      );
