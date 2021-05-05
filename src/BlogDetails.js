@@ -1,4 +1,5 @@
 import { useHistory, useParams } from "react-router";
+import SkeletonLoader from "./SkeletonLoader";
 import useFetch from "./useFetch";
 
 const BlogDetails = () => {
@@ -19,7 +20,7 @@ const BlogDetails = () => {
         <div className="blogDetails">
             {/* conditional rendering */}
 
-            { isPending && <div>loading details...</div>}
+            { isPending && <SkeletonLoader />}
             { error && <div>{error}</div>}
             { blog && (
                 <article>
