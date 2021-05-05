@@ -1,5 +1,6 @@
 
 import BlogList from './BlogList';
+import SkeletonLoader from './SkeletonLoader';
 import useFetch from './useFetch'
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
         <div className="home">
             {/* show loading message */}
             {error && <div className="text-red">{error}</div>}
-            {isPending && <div>Loading...</div>}
+            {isPending && <SkeletonLoader />}
            {blogs && <BlogList blogs={blogs} title={title}/>}
            
         {/* <Clock date={ new Date() } />  */}
